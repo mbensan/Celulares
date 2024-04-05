@@ -1,3 +1,5 @@
+package clases;
+
 public class Servicio {
   private String cod;
   private String tipo;

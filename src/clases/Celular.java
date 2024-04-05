@@ -1,3 +1,5 @@
+package clases;
+
 public class Celular extends Servicio {
   private String numero;
   private String marca;
@@ -9,6 +11,14 @@ public class Celular extends Servicio {
     }
     this.numero = numero;
     this.marca = marca;
+  }
+
+  public String getNumero() {
+    return numero;
+  }
+
+  public void setNumero(String nuevoNum) {
+    this.numero = nuevoNum;
   }
 
 }
